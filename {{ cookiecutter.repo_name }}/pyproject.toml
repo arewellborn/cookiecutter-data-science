@@ -8,14 +8,15 @@ readme = "README.md"
 packages = [{include = "{{ cookiecutter"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-click = "^8.1.3"
-Sphinx = "^6.1.3"
-coverage = "^7.2.3"
-awscli = "^1.27.114"
-flake8 = "^6.0.0"
-isort = "^5.12.0"
-black = "^23.3.0"
+python = "*"
+click = "*"
+Sphinx = "*"
+coverage = "*"
+awscli = "*"
+flake8 = "*"
+isort = "*"
+black = "*"
+pre-commit = "*"
 
 
 [build-system]
